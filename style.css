@@ -224,6 +224,11 @@ a {
 @media (max-width: 640px) {
     body {
         background-image: url(background-first-block-mobile.png);
+        background-size: cover;
+    }
+
+    .container {
+        padding: 5vh 5vw;
     }
 
     .main {
